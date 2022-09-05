@@ -1,0 +1,35 @@
+.calculator{
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin-left: 37rem;
+    margin-top: 30px;
+    color: #289df6;
+}
+.calculator fieldset{
+    width: 300px;
+    /* height: 175px; */
+    padding: 30px;
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+}
+.calculator #fbmi01{
+    padding-left: 3rem;
+}
+input[type='number']{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.315);
+    color: #289df6;
+    border-radius: 3px;
+}
+button{
+    background-color: ghostwhite;
+    color: #289df6;
+    border: 0;
+    padding: 2px;
+    border-radius: 3px;
+}
+button:hover{
+    color: ghostwhite;
+    background-color: #289df6;
+}
