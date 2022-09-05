@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/Web-Annhilators/Static/CSS/Draft files css/calcudesigns.css">
+    <link rel="stylesheet" href="/Web-Annhilators/Static/CSS/Draft files css/navandheader.css">
     <script src="https://kit.fontawesome.com/7f4909e8f8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="navandheader.css">
+    <script src="/Web-Annhilators/Static/Js/Draft files js/bmrcalculator.js"></script>
+    
 </head>
 <body>
     <header>
@@ -47,5 +50,19 @@
     <li><a href="#">SHOPPING</a></li>
     </ul>
     </nav>
+    <div class="calculator">
+        <fieldset>
+        <p>Age(in years):&nbsp;<input type="number" name="Age" id="old89" required></p>
+        <br>
+        <p><input type="radio" name="Gender" id="male069" value="male">Male&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="Gender" id="fmale069" value="fmale">Female</p><br>
+        <p>Height(in Cm): <input type="number" name="Height" id="tall001"></p><br>
+        <p>Weight(in Kg): <input type="number" name="Weight" id="mass007" required></p><br>
+        <button onclick="checkgender()">Calculate</button>
+        <button onclick="allclear()">All Clear</button>
+        </fieldset> <br>   
+        <p id="fbmi01">Check Your BMR here</p>
+        
+    </div>
 </body>
 </html>

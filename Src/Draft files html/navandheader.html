@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="navandheader.css">
-    <link rel="stylesheet" href="calcudesigns.css">
     <script src="https://kit.fontawesome.com/7f4909e8f8.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="/Web-Annhilators/Static/CSS/Draft files css/navandheader.css">
 </head>
 <body>
     <header>
@@ -35,6 +33,7 @@
             <li><a href="#">BMI Calculator</a></li>
             <li><a href="#">BMR Calculator</a></li>
             <li><a href="#">IBW Calculator</a></li>
+            <!-- <li><a href="#">Calorie Calculator</a></li> -->
         </ul>
     </li>
     <li><a href="#">MEMBERSHIP PLANS</a>
@@ -48,44 +47,5 @@
     <li><a href="#">SHOPPING</a></li>
     </ul>
     </nav>
-    <div class="calculator">
-        <fieldset>
-        <p>Age(in years):&nbsp;<input type="number" name="Age" id="old89" required></p>
-        <br>
-        <p><input type="radio" name="Gender" id="male069" value="male">Male&nbsp;&nbsp;&nbsp;
-        <input type="radio" name="Gender" id="fmale069" value="fmale">Female</p><br>
-        <p>Height(in Cm): <input type="number" name="Height" id="tall001"></p><br>
-        
-        <button onclick="checkgender()">Calculate</button>
-        <button onclick="allclear()">All Clear</button>
-        </fieldset> <br>   
-        <p id="fbmi01">Check the Ideal Weight for You here</p>
-        <script>
-            function checkgender() {
-                let selected= document.querySelector('input[type="radio"]:checked')
-            if(selected.value=='male')
-            {
-                alert('male')
-                male();
-            }
-            else if(selected.value=='fmale')
-            {
-                fmale();
-            }
-            else
-            alert('Choose Gender to Get Ideal Body Weight');  
-            }
-            function male() {
-                var height= parseInt(document.getElementById("tall001").value);
-                var IBW= 22*(height/100)*(height/100);
-            document.getElementById('fbmi01').innerHTML=`Your Ideal Body Weight is= ${IBW}`;
-            }
-            function fmale() {
-                var height= parseInt(document.getElementById("tall001").value);
-                var IBW= 22*((height/100)-0.1)*((height/100)-0.1);
-            document.getElementById('fbmi01').innerHTML=`Your Ideal Body Weight is= ${IBW}`;
-            }
-        </script>
-    </div>
-    </body>
-    </html>
+</body>
+</html>
