@@ -1,0 +1,97 @@
+.InFo{
+    text-align: center;
+    margin: 70px;
+
+}
+.InFo h2
+{
+    padding-bottom: 2rem;
+    color: #289df6;
+}
+.InFo p{
+    color: ghostwhite;
+    font-size: larger;
+}
+.ContactInfo{
+    /* margin-left: 2rem; */
+    padding-top: 4rem;
+    
+}
+.ContactInfo ul{
+    display: flex;
+    gap: 8rem;  
+    list-style: none;
+    justify-content: center;
+}
+.ContactInfo ul li{
+    text-align: center;
+    height: 200px;
+    
+    
+}
+.ContactInfo ul li h2{
+    color: #289df6;
+}
+.ContactInfo ul li p{
+    color: ghostwhite;
+    font-size: larger;
+}
+.allPicture ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    gap: 4rem;
+    list-style: none;
+}
+.allPicture ul li{
+    text-align: center;
+}
+.allPicture ul li h3{
+    color: #289df6;
+}
+.allPicture ul li p{
+    color: ghostwhite;
+}
+.personalTrainer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 4rem;
+}
+.personalTrainer ul li img{
+    /* width: 150px; */
+    height: 150px;
+}
+.personalTrainer ul li p{
+    color: ghostwhite;
+    text-align: center;
+}
+.personalTrainer h2{
+    color: #289df6;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.scheDule h2{
+    text-align: center;
+    color: #289df6;
+    padding: 1rem;
+    padding-left: 0rem;
+}
+.scheDule ul {
+    text-align: center;
+    color: ghostwhite;
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.scheDule ul li h3{
+    color: #289df6;
+}
+.map ul {
+    display: flex;
+    justify-content: center;
+}
+    
+
