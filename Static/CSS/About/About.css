@@ -13,18 +13,21 @@
     font-size: larger;
 }
 .ContactInfo{
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    padding-top: 4rem;
     
 }
 .ContactInfo ul{
     display: flex;
-    /* gap: 2rem;  */
+    gap: 8rem;  
     list-style: none;
-    
     justify-content: center;
 }
 .ContactInfo ul li{
     text-align: center;
+    height: 200px;
+    
+    
 }
 .ContactInfo ul li h2{
     color: #289df6;
@@ -67,6 +70,28 @@
     color: #289df6;
     text-align: center;
     padding-bottom: 2rem;
+}
+.scheDule h2{
+    text-align: center;
+    color: #289df6;
+    padding: 1rem;
+    padding-left: 0rem;
+}
+.scheDule ul {
+    text-align: center;
+    color: ghostwhite;
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.scheDule ul li h3{
+    color: #289df6;
+}
+.map ul {
+    display: flex;
+    justify-content: center;
 }
     
 
