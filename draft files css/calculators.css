@@ -21,15 +21,41 @@ input[type='number']{
     background-color: rgba(0, 0, 0, 0.315);
     color: #289df6;
     border-radius: 3px;
+    padding: 3px 3px 3px 3px;
+    outline: 0;
+
 }
 button{
-    background-color: ghostwhite;
-    color: #289df6;
-    border: 0;
-    padding: 2px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 3px;
+    border: 2px solid #289df6;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     border-radius: 3px;
+    background-color: ghostwhite;
+    /* -webkit-box-reflect: below 0px linear-gradient; */
 }
 button:hover{
     color: ghostwhite;
-    background-color: #289df6;
+}
+button::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: #289df6;
+    box-shadow: 1px -5px 0 #289df6;
+    transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+}
+button:hover::before{
+    width: 50%;
+    height: 100%;
+    left: -2px;
+    overflow: hidden;
+    box-shadow: 1px -5px 0 #289df6;
 }
