@@ -1,0 +1,65 @@
+button {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: ghostwhite;
+    padding: 0px 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(40, 157, 246);
+    border-image: initial;
+    border-radius: 3px;
+}
+button:hover{
+    transition-delay: 0.55s;
+    color: ghostwhite;
+    box-shadow: 0 0 10px rgb(40, 157, 246), 0 0 20px rgb(40, 157, 246),0 0 40px rgb(40, 157, 246),0 0 80px rgb(40, 157, 246), 0 0 160px rgb(40, 157, 246);
+}
+button span{
+    position: relative;
+    z-index: 100;
+}
+button::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 7.5px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    box-shadow: rgb(40, 157, 246) -0px -5px 0px,rgb(40, 157, 246) -0px 5px 0px; 
+    background: rgb(40, 157, 246);
+    box-shadow: 0.5s;
+    transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+    transition-delay: 0s,0.25s,0.5s,0s;
+}
+button::after{
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 7.5px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    box-shadow: rgb(40, 157, 246) -0px -5px 0px,rgb(40, 157, 246) -0px 5px 0px; 
+    background: rgb(40, 157, 246);
+    box-shadow: 0.5s;
+    transition: width 0.5s, right 0.5s, height 0.5s, box-shadow 0.5s;
+    transition-delay: 0s,0.25s,0.5s,0s;
+}
+button:hover::before{
+    width: 70%;
+    height: 47%;
+    left: -2px;
+    box-shadow: rgb(40, 157, 246) -0px -5px 0px,rgb(40, 157, 246) -0px 5px 0px;
+    /* transition-delay: 0s,0.5s,0s,0s; */
+}
+button:hover::after{
+    width: 70%;
+    height: 47%;
+    right: -2px;
+    box-shadow: rgb(40, 157, 246) -0px -5px 0px,rgb(40, 157, 246) -0px 5px 0px;
+    /* transition-delay: 0s,0.5s,0s,0s; */
+}
