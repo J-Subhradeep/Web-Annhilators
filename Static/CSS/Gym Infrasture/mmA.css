@@ -1,0 +1,51 @@
+.openIng{
+    padding: 4px;
+    background-image: url(https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg);
+    width: 981.6px;
+    height: 360px;
+    background-size: 981.6px 360px;
+    background-repeat: no-repeat;
+    margin-left: 18rem;
+    margin-top: 6rem;
+}
+.openIng img{
+    width: 180px;
+    background-color: rgb(39, 35, 35);
+    border-radius: 4px;
+    margin-left: 680px;
+    margin-top: 110px;
+}
+.openIng h2{
+    color: #289df6;
+    /* background-color: rgb(39, 35, 35); */
+    border-radius: 4px;
+    margin-left: 681px;
+}
+.openIng h2 span{
+    background-color: rgb(39, 35, 35);
+    border-radius: 4px;
+    padding: 0px 4px 0px 4px;  
+}
+.equipMent .mainUl {
+    display: block;
+    list-style: none;
+    margin: 0px 4px 0px 4px;
+}
+.equipMent ul li ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.equipMent ul li ul h2{
+    color: #289df6;
+}
+.equipMent ul li ul p{
+    color: ghostwhite;
+}
+.equipMent ul li ul li{
+    padding: 2rem 2rem 0rem 2rem;
+}
+.equipMent h1{
+    text-align: center;
+    color: #289df6;   
+}
