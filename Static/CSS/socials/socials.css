@@ -105,7 +105,7 @@ ul li ul li{
     color: red;
 }
 .card .deTails .content .socialLink a:hover{
-    transition-delay: 0.55s;
+    transition-delay: 0.1s;
     color: ghostwhite;
     background-color: red;
     box-shadow: 0 0 10px red, 0 0 20px red,0 0 40px red,0 0 80px red, 0 0 160px red;
@@ -126,7 +126,7 @@ body a{
     /* height: 25px; */
 }
 body a:hover{
-    transition-delay: 0.55s;
+    transition-delay: 0.15s;
     color: ghostwhite;
     background-color: red;
     box-shadow: 0 0 10px red, 0 0 20px red,0 0 40px red,0 0 80px red, 0 0 160px red;
