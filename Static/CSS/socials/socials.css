@@ -16,6 +16,9 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 ul li h1{
     text-align: center;
@@ -26,7 +29,10 @@ ul li ul{
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    flex-wrap: wrap;
     margin-left: 250px;
+    justify-content: center;
+    align-items: center;
     
 }
 ul li ul li{
