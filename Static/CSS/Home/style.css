@@ -6,12 +6,17 @@
 html{
     
     background-color: rgb(39, 35, 35);
-    background-image: url("https://image.shutterstock.com/image-photo/athletic-shirtless-young-sports-man-260nw-695401201.jpg" );
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     
+}
+.inF{
+    background-image: url("/Static/CSS/Home/homecover1.jpg" );
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     height: 60px;
@@ -224,7 +229,7 @@ transition: all ease-in-out 250ms;
 .info{
     color: ghostwhite;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 0rem;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif
 }
