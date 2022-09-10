@@ -19,6 +19,7 @@
 }
 .ContactInfo ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 8rem;  
     list-style: none;
     justify-content: center;
@@ -38,6 +39,7 @@
 }
 .allPicture ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 4rem;
     gap: 4rem;
@@ -53,7 +55,7 @@
     color: ghostwhite;
 }
 .personalTrainer ul{
-    display: flex;
+    display: flex;flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     gap: 4rem;
@@ -82,7 +84,7 @@
     color: ghostwhite;
     padding: 1rem;
     list-style: none;
-    display: flex;
+    display: flex;flex-wrap: wrap;
     justify-content: center;
     gap: 6rem;
 }
@@ -91,6 +93,7 @@
 }
 .map ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
     

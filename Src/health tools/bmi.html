@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/Web-Annhilators/draft files css/bmi.css">
-    <link rel="stylesheet" href="/Web-Annhilators/draft files css/navandheader.css">
+    <link rel="stylesheet" href="/Static/Js/health tools/bmi.js">
+    <!-- <link rel="stylesheet" href="/Static/CSS/allcommon files/buttonpower.css"> -->
+    <link rel="stylesheet" href="/Static/CSS/health tools/bmi.css">
+    <link rel="stylesheet" href="/Static/CSS/allcommon files/navandheader.css">
+    <script src="https://kit.fontawesome.com/7f4909e8f8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Rampart+One&display=swap" rel="stylesheet">
@@ -50,8 +53,8 @@
 <li><a href="#">SHOPPING</a></li>
 </ul>
 </nav>
-  <h3><b>Body Mass Index Calculator (BMI)</h3>
-<form class="form" id="form" onsubmit="return validateForm()">
+  <span class="hhh"><h3><b>Body Mass Index Calculator (BMI)</b></h3></span>
+<div class="form" id="form">
 <div class="row-one">
   <input type="text" class="text-input" id="age" autocomplete="off" required/><p class="text">Age</p>
   <label class="container">
@@ -68,8 +71,9 @@
 <input type="text" class="text-input" id="height" autocomplete="off" required><p class="text">Height (cm)</p>
 <input type="text" class="text-input" id="weight" autocomplete="off" required><p class="text">Weight (kg)</p>
 </div>
-<button type="button" id="submit">Submit</button>
-</form>
-<script src="/Web-Annhilators/draft files js/bmi.js"></script>
+<button type="button" id="submit"  onclick="validateForm()">Submit</button>
+</div>
+<p id="bmicounted">Your Results are:</p>
+<!-- <script src="/Web-Annhilators/draft files js/bmi.js"></script> -->
 </body>
 </html>

@@ -23,6 +23,7 @@ header ul{
     margin-left: 25rem;
     list-style: none;
     padding-top: 12px ;
+    flex-wrap: wrap;
 }
 header ul li{
     color: ghostwhite;
@@ -57,6 +58,7 @@ nav .navigation{
     height: 50px;
     background-color:#289df6 ;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .navigation li{
     position: relative;
