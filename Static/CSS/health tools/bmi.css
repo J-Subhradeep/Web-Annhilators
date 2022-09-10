@@ -118,27 +118,27 @@
    .container input:checked ~ .checkmark {  
     background-color: #0f1418;  
    }  
-   /* h1 {  
+   h1 {  
     font-size: 30px;  
     font-weight: 300;  
     text-align: center;  
     color: #c9d6e0;  
     padding-top: 15px;  
     display: block;  
-   }   */
+   }  
    h2 {  
     font-size: 22px;  
     font-weight: 300;  
     text-align: center;  
     color: #c9d6e0; 
    }  
-   .hhh h3 {  
+    h3 {  
     font-size: 24px;  
     font-weight: 300;  
     text-align: center;  
     padding: 15px;  
    }  
-   .hhh h3 b {  
+    h3 b {  
     font-family: 'Rampart One', cursive;
     font-size: 32px;  
     font-weight: 300;  
